@@ -1,11 +1,11 @@
 /*------------------------------------------------------------------
 [Main Theme Styles]
 
-Project:  Cards - Personal vCard, Resume/CV & Portfolio
+Project:  Cards - Personal vCard, Resume/CV & photography
 Author: Diego Pereira @ DotRex
 Version:  1.1
 Last change:  30/09/15 
-Primary use:  Vcard / Personal / CV / Resume / Portfolio
+Primary use:  Vcard / Personal / CV / Resume / photography
 -------------------------------------------------------------------*/
 /*------------------------------------------------------------------
 [Table of contents]
@@ -22,11 +22,11 @@ Primary use:  Vcard / Personal / CV / Resume / Portfolio
 10. Section: Resume
 11. Owl Carousel
 12. Section: Skills
-13. Section: Portfolio
-14. Section: Blog
-15. Section: Blog - Single
+13. Section: photography
+14. Section: chess
+15. Section: chess - Single
 16. Maps
-17. Section: Blog - Contact
+17. Section: chess - Contact
 18. Crossbrowser Fallbacks
 -------------------------------------------------------------------*/
 /* ==========================================================
@@ -1004,7 +1004,7 @@ iframe {
   background: #d9212a;
 }
 /* ==========================================================
-! 13. SECTION: Portfolio
+! 13. SECTION: photography
 ========================================================== */
 .project-item {
   padding: 0;
@@ -1110,9 +1110,9 @@ span.see-more {
   -moz-transform: translateY(10px);
 }
 /* ==========================================================
-! 14. BLOG
+! 14. chess
 ========================================================== */
-.blog-item {
+.chess-item {
   margin-bottom: 15px;
   padding: 9px;
   border-top: 4px solid #132644;
@@ -1120,7 +1120,7 @@ span.see-more {
   padding: 15px;
   background: rgba(255, 255, 255, 0.6);
 }
-.blog-item-wrapper {
+.chess-item-wrapper {
   /* border: 1px solid #ddd;
   border-top: 3px solid @color1;
   padding: 15px;
@@ -1132,7 +1132,7 @@ span.see-more {
   -moz-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
 }
-.blog-item-title {
+.chess-item-title {
   font-size: 18px;
   line-height: 26px;
   padding-bottom: 0;
@@ -1142,20 +1142,20 @@ span.see-more {
   padding-bottom: 4px;
   font-weight: bold;
 }
-.blog-item-title a {
+.chess-item-title a {
   color: #021533;
 }
-.blog-item-title a:hover {
+.chess-item-title a:hover {
   text-decoration: none;
 }
-.blog-item-thumb a {
+.chess-item-thumb a {
   cursor: url('../img/projects.cur'), projetos !important;
   -moz-cursor: url('../img/projects.cur'), projetos !important;
 }
-.blog-item-thumb img {
+.chess-item-thumb img {
   width: 100%;
 }
-.blog-item-title-hr {
+.chess-item-title-hr {
   border: 0;
   border-top: 3px solid #021533;
   width: 20%;
@@ -1163,20 +1163,20 @@ span.see-more {
   margin-bottom: 15px;
   margin-left: 0;
 }
-.blog-item-description p {
+.chess-item-description p {
   font-size: 12px;
 }
-.blog-item-description a {
+.chess-item-description a {
   color: #555555 !important;
 }
-.blog-item-description a:hover {
+.chess-item-description a:hover {
   text-decoration: none;
 }
-.blog-item-link {
+.chess-item-link {
   margin-top: 20px;
   margin-bottom: 10px;
 }
-.blog-item-link .btn-default {
+.chess-item-link .btn-default {
   font-size: 11px !important;
 }
 .section-header-image {
@@ -1206,7 +1206,7 @@ span.see-more {
   text-decoration: none;
 }
 /* ==========================================================
-! 15. SECTION: Blog - Single
+! 15. SECTION: chess - Single
 ========================================================== */
 .vcard-header-single {
   width: 100%;
@@ -1227,7 +1227,7 @@ span.see-more {
     top: 180px;
   }
 }
-.blog-single-post {
+.chess-single-post {
   display: block;
   margin: 0 auto;
   max-width: 100%;
@@ -1235,11 +1235,11 @@ span.see-more {
   padding-top: 0;
   padding-right: 20px;
 }
-.blog-single-content p {
+.chess-single-content p {
   font-size: 13px;
   line-height: 23px;
 }
-.blog-comments-title {
+.chess-comments-title {
   border-bottom: 1px dotted #08aeac;
   padding-bottom: 10px;
   margin-bottom: 10px;
@@ -1253,7 +1253,7 @@ span.see-more {
 .post-header-image img {
   width: 100%;
 }
-.blog-single-title {
+.chess-single-title {
   font-size: 18px;
   line-height: 26px;
   padding-bottom: 0;
@@ -1269,14 +1269,14 @@ span.see-more {
   margin-bottom: 20px;
   text-transform: uppercase;
 }
-.blog-single-title a {
+.chess-single-title a {
   color: #021533;
 }
-.blog-single-title a:hover {
+.chess-single-title a:hover {
   text-decoration: none;
 }
-/*! Blog Comments */
-.blog-comments-title {
+/*! chess Comments */
+.chess-comments-title {
   margin-bottom: 20px;
   margin-top: 40px;
   font-size: 18px;
@@ -1297,7 +1297,7 @@ span.see-more {
 .well {
   background-color: transparent!important;
 }
-.blog-comments > .media {
+.chess-comments > .media {
   border-bottom: 1px dotted #000000;
   padding-bottom: 20px;
   padding-top: 20px;
